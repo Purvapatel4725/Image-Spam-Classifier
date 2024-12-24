@@ -91,9 +91,14 @@ The `Modle-Train.ipynb` notebook builds a CNN with the following architecture:
 - Sigmoid activation in the output layer for binary classification.
 
 The model is compiled using:
-- **Optimizer**: Adam
+- **Optimizer**: Adam (Adaptive Moment Estimation)
 - **Loss Function**: Binary Crossentropy
 - **Metrics**: Accuracy
+
+Why These Choices?
+- Adam: Effective and requires less hyperparameter tuning.
+- Binary Crossentropy: Suitable for binary classification tasks like this one.
+- Accuracy: Intuitive and directly interprets the model's performance in terms of correct predictions.
 
 ### Automation Script
 
