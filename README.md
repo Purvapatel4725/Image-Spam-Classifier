@@ -95,7 +95,7 @@ The model is compiled using:
 - **Loss Function**: Binary Crossentropy
 - **Metrics**: Accuracy
 
-Why These Choices?
+Why these choices?
 - Adam: Effective and requires less hyperparameter tuning.
 - Binary Crossentropy: Suitable for binary classification tasks like this one.
 - Accuracy: Intuitive and directly interprets the model's performance in terms of correct predictions.
